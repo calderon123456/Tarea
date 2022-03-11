@@ -29,8 +29,7 @@ namespace firmaApp.Controller
 
         }
 
-        //retornar una persona //READ one by one
-        //(retorna el primero que encuentre ya que pueden a ver varios del dp choluteca)
+        
         public Task<Firmas> ObtenerFirma(int pcodigo)
         {
             return db.Table<Firmas>()
